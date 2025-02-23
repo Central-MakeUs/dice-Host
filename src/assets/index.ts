@@ -8,6 +8,9 @@ import BankSaemaeul from '@assets/bank/bank_saemaeul.svg';
 import BankSinhan from '@assets/bank/bank_sinhan.svg';
 import BankToss from '@assets/bank/bank_toss.svg';
 import BankWoori from '@assets/bank/bank_woori.svg';
+//chat
+import ChatBlack from '@assets/chat/chat-black.svg';
+import SirenGray from '@assets/chat/siren-gray.svg';
 // common/arrow
 import ArrowBackBlack from '@assets/common/arrow/arrow-back-black.svg';
 import ArrowBackWhite from '@assets/common/arrow/arrow-back-white.svg';
@@ -27,7 +30,6 @@ import PlaceGray from '@assets/mainFooter/place-gray.svg';
 import ReservationBlack from '@assets/mainFooter/reservation-black.svg';
 import ReservationGray from '@assets/mainFooter/reservation-gray.svg';
 // mainHeader
-import Chat from '@assets/mainHeader/chat.svg';
 import EditGray from '@assets/mainHeader/edit-gray.svg';
 import Heart from '@assets/mainHeader/heart.svg';
 import SendGray from '@assets/mainHeader/send-gray.svg';
@@ -72,6 +74,9 @@ const BANK = [
   { bankImage: BankWoori, bankName: '우리' },
 ];
 const IMAGES = {
+  //chat
+  ChatBlack,
+  SirenGray,
   // common/arrow
   DiceLoading,
   ArrowBackBlack,
@@ -91,7 +96,6 @@ const IMAGES = {
   ReservationBlack,
   ReservationGray,
   //mainHeader
-  Chat,
   Heart,
   EditGray,
   SendGray,

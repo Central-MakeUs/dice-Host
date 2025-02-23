@@ -56,7 +56,7 @@ export default function MyPage({
         <p onClick={() => router.push('/')} className="cursor-pointer">
           찜한 목록
         </p>
-        <p onClick={() => router.push('/')} className="cursor-pointer">
+        <p onClick={() => router.push('/chat')} className="cursor-pointer">
           쪽지함
         </p>
         <hr />

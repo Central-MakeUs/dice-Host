@@ -31,7 +31,6 @@ export const fetchValidateEmail = async (email: string) => {
 
 export const fetchValidatePhone = async (phone: string) => {
   try {
-    console.log(phone);
     const res = await GuestPostAxiosInstance('/auth/validate/phone', phone.replace(/-/g, ''));
     if (res.status === 200) return;
   } catch (error) {
